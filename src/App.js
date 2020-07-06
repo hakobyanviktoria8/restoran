@@ -5,28 +5,13 @@ import {Home} from "./Components/Home";
 import {About} from "./Components/About";
 import {Menu} from "./Components/Menu";
 import {Contact} from "./Components/Contact";
+import NavBar from "./Components/NavBar";
 
 export default function App() {
     return (
         <Router>
             <div>
-                <nav>
-                    <ul>
-                        <li>
-                            <Link to="/">Logo</Link>
-                        </li>
-                        <li>
-                            <Link to="/about">About</Link>
-                        </li>
-                        <li>
-                            <Link to="/menu">Menu</Link>
-                        </li>
-                        <li>
-                            <Link to="/contact">Contact</Link>
-                        </li>
-                    </ul>
-                </nav>
-
+                <NavBar/>
                 <Switch>
                     <Route exact path="/">
                         <Home />

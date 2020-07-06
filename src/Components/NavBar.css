@@ -1,0 +1,11 @@
+.link{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 500;
+}
+.link:hover{
+    transform: scale(1.02, 1.02);
+    text-shadow: 0 0  10px #868686;
+    text-decoration: none;
+    color: #3a3a3a;
+}
