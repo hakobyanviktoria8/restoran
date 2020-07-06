@@ -1,11 +1,11 @@
 import React from "react";
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
-import {Home} from "./Components/Home";
-import {About} from "./Components/About";
-import {Menu} from "./Components/Menu";
-import {Contact} from "./Components/Contact";
-import NavBar from "./Components/NavBar";
+import {Home} from "./Components/Home/Home";
+import {About} from "./Components/About/About";
+import {Menu} from "./Components/Menu/Menu";
+import {Contact} from "./Components/Contact/Contact";
+import NavBar from "./Components/Navbar/NavBar";
 
 export default function App() {
     return (
