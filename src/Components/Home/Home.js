@@ -1,9 +1,11 @@
 import React from "react";
+import Slide from "./Slide";
+
 
 export function Home(props) {
     return(
         <div>
-            <h1>Home</h1>
+            <Slide/>
         </div>
     )
 }

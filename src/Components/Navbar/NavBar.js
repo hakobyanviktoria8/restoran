@@ -10,26 +10,18 @@ const NavBar = (props) => {
     return (
         <div>
             <Navbar color="light" light expand="md">
-                <NavbarBrand>
-                    <Link className={"mx-3 link"} to="/">Logo</Link>
-                </NavbarBrand>
+                <Link className={"mx-3 link"} to="/">Logo</Link>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink>
-                                <Link className={"mx-3 link"} to="/about">About</Link>
-                            </NavLink>
+                            <Link className={"mx-3 link"} to="/about">About</Link>
                         </NavItem>
                         <NavItem>
-                            <NavLink>
-                                <Link className={"mx-3 link"} to="/menu">Menu</Link>
-                            </NavLink>
+                            <Link className={"mx-3 link"} to="/menu">Menu</Link>
                         </NavItem>
                         <NavItem>
-                            <NavLink>
-                                <Link className={"mx-3 link"} to="/contact">Contact</Link>
-                            </NavLink>
+                            <Link className={"mx-3 link"} to="/contact">Contact</Link>
                         </NavItem>
                     </Nav>
                 </Collapse>
