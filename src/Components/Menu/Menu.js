@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import "./Menu.css";
+import RecipeReviewCard from "./Card";
 
 export function Menu(props) {
     const [rowData, setRowData] = useState([]);
@@ -24,11 +26,11 @@ export function Menu(props) {
         <div>
 
             {console.log(rowData)}
-            {/*{*/}
-            {/*rowData.map(item=>*/}
-            {/*<img src={item.image_url} alt=""/>*/}
-            {/*)*/}
-            {/*}*/}
+            {
+                rowData.map(item=>
+                    <RecipeReviewCard key={item.recipe_id} item={item}/>
+                )
+            }
         </div>
     )
 }
