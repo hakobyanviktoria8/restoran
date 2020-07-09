@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/restoran/static/css/main.773f6874.chunk.css",
-    "main.js": "/restoran/static/js/main.2e8fff38.chunk.js",
-    "main.js.map": "/restoran/static/js/main.2e8fff38.chunk.js.map",
+    "main.js": "/restoran/static/js/main.9b80599c.chunk.js",
+    "main.js.map": "/restoran/static/js/main.9b80599c.chunk.js.map",
     "runtime-main.js": "/restoran/static/js/runtime-main.dda13aa5.js",
     "runtime-main.js.map": "/restoran/static/js/runtime-main.dda13aa5.js.map",
     "static/css/2.30c2d978.chunk.css": "/restoran/static/css/2.30c2d978.chunk.css",
     "static/js/2.2a5c8e72.chunk.js": "/restoran/static/js/2.2a5c8e72.chunk.js",
     "static/js/2.2a5c8e72.chunk.js.map": "/restoran/static/js/2.2a5c8e72.chunk.js.map",
     "index.html": "/restoran/index.html",
-    "precache-manifest.48c20b3c94017d0ad1e4308e15b274f5.js": "/restoran/precache-manifest.48c20b3c94017d0ad1e4308e15b274f5.js",
+    "precache-manifest.bd8bc41c9d6347ff45b366dca6e11d19.js": "/restoran/precache-manifest.bd8bc41c9d6347ff45b366dca6e11d19.js",
     "service-worker.js": "/restoran/service-worker.js",
     "static/css/2.30c2d978.chunk.css.map": "/restoran/static/css/2.30c2d978.chunk.css.map",
     "static/css/main.773f6874.chunk.css.map": "/restoran/static/css/main.773f6874.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.30c2d978.chunk.css",
     "static/js/2.2a5c8e72.chunk.js",
     "static/css/main.773f6874.chunk.css",
-    "static/js/main.2e8fff38.chunk.js"
+    "static/js/main.9b80599c.chunk.js"
   ]
 }
