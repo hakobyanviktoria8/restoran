@@ -1,0 +1,8 @@
+.formContact{
+    border: 1px solid red;
+    height: 300px;
+}
+.formCol{
+    display: flex;
+    flex-grow: 1;
+}
