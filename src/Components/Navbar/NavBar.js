@@ -10,7 +10,7 @@ const NavBar = (props) => {
     return (
         <div>
             <Navbar color="light" light expand="md">
-                <Link className={"mx-3 link"} to="/">Logo</Link>
+                <Link className={"mx-3 link"} to="/restoran">Logo</Link>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>
