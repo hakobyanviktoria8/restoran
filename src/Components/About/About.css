@@ -1,10 +1,25 @@
 .colAbout{
     padding: 20px;
+    height: 400px;
 }
 h2{
     text-align: center;
+    margin: 20px;
 }
 .aboutImg{
     width: 100%;
     margin: 10px;
+}
+.myImg, .certifikat{
+    width: 50%;
+    position: relative;
+    margin: 20px 0;
+}
+.aboutText{
+    position: relative;
+    height: auto;
+}
+.myImg{
+    top: 40px;
+    right: 21px;
 }
