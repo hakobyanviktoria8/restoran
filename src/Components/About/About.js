@@ -10,7 +10,7 @@ export function About(props) {
         <Container>
             <Row>
                 <Col xs="12" sm="12" md="12" lg="12" xl="12">
-                    <h2 className={"my-4"}>ABOUT US</h2>
+                    <h1 className={"my-4 text-center"}>ABOUT US</h1>
                 </Col>
             </Row>
             <Row>
@@ -42,6 +42,11 @@ export function About(props) {
                     <b>2007</b> James Beard Foundation Book Awards Nominee – Healthy Focus, Super Natural Cooking <br/>
                     <img className={"certifikat"} src={certifikat} alt=""/>
                     <img className={"myImg"} src={myImg} alt=""/>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <h3 className={" my-3 text-center"}>Never give up ...!</h3>
                 </Col>
             </Row>
         </Container>

@@ -1,26 +1,16 @@
 import React from "react";
 import { Container, Row, Col } from 'reactstrap';
-import { makeStyles } from '@material-ui/core/styles';
-import TextField from '@material-ui/core/TextField';
 import "./Contact.css";
-import Button from '@material-ui/core/Button';
-import Icon from '@material-ui/core/Icon';
-
-const useStyles = makeStyles((theme) => ({
-    root: {
-        '& > *': {
-            margin: theme.spacing(1),
-            width: '25ch',
-        },
-    },
-    button: {
-        margin: theme.spacing(1),
-    },
-}));
+import {SlackMessage} from "./SlackMessage";
+import address from "./address.png";
+import phone from "./phone.png";
+import gmail from "./gmail.png";
+import facebook from "./facebook.png";
+import instagram from "./icons8-instagram-30.png";
+import pinterest from "./pinterest.png";
+import twitter from "./twitter.png";
 
 export function Contact(props) {
-    const classes = useStyles();
-
     return(
         <Container>
             <Row>
@@ -30,23 +20,27 @@ export function Contact(props) {
             </Row>
             <Row className={"formContact"}>
                 <Col xs="12" sm="10" md="6" lg="6" xl="6" className={"formCol"}>
-                    <form className={classes.root} noValidate autoComplete="off">
-                        <textarea value={"Send message ..."} style={{width: "100%"}} name="" id="" cols="60" rows="3"> </textarea>
-                        <TextField style={{width: "100%"}} id="standard-basic" label="Nmae" />
-                        <TextField style={{width: "100%"}} id="standard-basic" label="Email" />
-                        {/*disabled={!input}*/}
-                        <Button
-                            variant="contained"
-                            color="primary"
-                            className={classes.button}
-                            endIcon={<Icon>send</Icon>}
-                        >
-                            Send
-                        </Button>
-                    </form>
+                    <SlackMessage/>
                 </Col>
-                <Col xs="12" sm="10" md="6" lg="6" xl="6">
-                    icon
+                <Col xs="12" sm="10" md="6" lg="6" xl="6" className={"p-5"}>
+                    <div className="addres">
+                        <img src={address} />
+                        <span className="ml-4">25 apt. 1b. S. About 101 Cookbooks</span>
+                    </div>
+                    <div className="mt-2 phone">
+                        <img src={phone} />
+                        <span className="ml-4">(+345 ) 3456 - 6333 - 518</span>
+                    </div>
+                    <div className="mt-2 gmail">
+                        <img src={gmail} />
+                        <span className="ml-4">kevin@closetcooking.com</span>
+                    </div>
+                    <div className={"my-4"}>
+                        <a className={"mx-2"} href="https://www.facebook.com/ClosetCooking"><img src={facebook} alt=""/> </a>
+                        <a className={"mx-2"} href="https://www.instagram.com/closetcooking/"><img src={instagram} alt=""/> </a>
+                        <a className={"mx-2"} href="https://www.pinterest.ca/ClosetCooking/"> <img src={pinterest} alt=""/></a>
+                        <a className={"mx-2"} href="https://twitter.com/ClosetCooking"> <img src={twitter} alt=""/></a>
+                    </div>
                 </Col>
             </Row>
             <Row>
