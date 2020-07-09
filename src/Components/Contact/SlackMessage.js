@@ -27,12 +27,22 @@ export function SlackMessage(props) {
     async function submitForm(e) {
         e.preventDefault();
 
-        const url = "https://hooks.slack.com/services/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";
+        const url = "https://hooks.slack.com/services/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";
         const data = {
             text: `Name: ${name} \n Message: ${message} \n Email: ${email} `,
         };
 
-        let res = await axios.post(url, JSON.stringify(data));
+        let res = await axios.post(url, JSON.stringify(data)
+        //     , {
+        //     // withCredentials: false,
+        //     transformRequest: [
+        //         (data, headers) => {
+        //             delete headers.post["Content-Type"];
+        //             return data;
+        //         },
+        //     ],
+        // }
+        );
 
         if (res.status === 200) {
             alert("Your message was successfully sent to.");
