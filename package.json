@@ -2,7 +2,8 @@
   "name": "restoran",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
+  "homepage": "http://hakobyanviktoria8.github.io/restoran",
+"dependencies": {
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -17,6 +18,8 @@
     "swiper": "^6.0.1"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
