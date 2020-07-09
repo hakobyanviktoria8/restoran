@@ -45,7 +45,7 @@ export function About(props) {
                 </Col>
             </Row>
             <Row>
-                <Col>
+                <Col style={{height: "20px"}}>
                     <h3 className={" my-3 text-center"}>Never give up ...!</h3>
                 </Col>
             </Row>

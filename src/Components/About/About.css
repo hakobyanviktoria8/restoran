@@ -1,6 +1,6 @@
 .colAbout{
     padding: 20px;
-    height: 400px;
+    min-height: 400px;
 }
 .aboutImg{
     width: 100%;

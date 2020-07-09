@@ -1,6 +1,6 @@
 .formContact{
     margin-top: 20px;
-    height: 300px;
+    min-height: 300px;
 }
 .formCol{
     display: flex;
