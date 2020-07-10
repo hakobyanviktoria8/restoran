@@ -23,34 +23,40 @@ export function SlackMessage(props) {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
-
+    const axios = require('axios');
+    
     async function submitForm(e) {
-        e.preventDefault();
+        // e.preventDefault();
 
         const url = "https://hooks.slack.com/services/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";
         const data = {
             text: `Name: ${name} \n Message: ${message} \n Email: ${email} `,
         };
-
-        let res = await axios.post(url, JSON.stringify(data), {
-            withCredentials: false,
-            transformRequest: [
-                (data, headers) => {
-                    delete headers.post["Content-Type"];
-                    return data;
-                },
-            ],
+        try {
+            let res = await axios.post(url, JSON.stringify(data), {
+                    withCredentials: false,
+                    transformRequest: [
+                        (data, headers) => {
+                            delete headers.post["Content-Type"];
+                            return data;
+                        },
+                    ],
+                }
+            );
+            console.log("Arach", res, res.data)
+        }catch (err) {
+            console.error(err);
         }
-        );
+        
 
-        if (res.status === 200) {
-            alert("Your message was successfully sent to.");
-            setName("");
-            setEmail("");
-            setMessage("");
-        } else {
-            alert("There was an error. Please try again later.");
-        }
+        // if (res.status === 200) {
+        //     alert("Your message was successfully sent to.");
+        //     setName("");
+        //     setEmail("");
+        //     setMessage("");
+        // } else {
+        //     alert("There was an error. Please try again later.");
+        // }
     }
 
     return(
@@ -82,7 +88,7 @@ export function SlackMessage(props) {
                 onChange={(e) => { setEmail(e.target.value) }}
             />
             <Button
-                onClick={(e) => submitForm(e)}
+                onClick={() => submitForm()}
                 disabled={!email}
                 variant="contained"
                 color="primary"
