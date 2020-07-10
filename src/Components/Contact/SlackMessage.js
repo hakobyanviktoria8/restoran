@@ -27,21 +27,20 @@ export function SlackMessage(props) {
     async function submitForm(e) {
         e.preventDefault();
 
-        const url = "https://hooks.slack.com/services/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";
+        const url = "https://hooks.slack.com/services/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";
         const data = {
             text: `Name: ${name} \n Message: ${message} \n Email: ${email} `,
         };
 
-        let res = await axios.post(url, JSON.stringify(data)
-        //     , {
-        //     // withCredentials: false,
-        //     transformRequest: [
-        //         (data, headers) => {
-        //             delete headers.post["Content-Type"];
-        //             return data;
-        //         },
-        //     ],
-        // }
+        let res = await axios.post(url, JSON.stringify(data), {
+            withCredentials: false,
+            transformRequest: [
+                (data, headers) => {
+                    delete headers.post["Content-Type"];
+                    return data;
+                },
+            ],
+        }
         );
 
         if (res.status === 200) {
