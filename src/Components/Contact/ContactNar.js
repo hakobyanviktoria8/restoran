@@ -11,7 +11,7 @@ const ContactNar = (props) => {
     e.preventDefault();
 
     const webhookUrl =
-      "https://hooks.slack.com/services/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";
+      "https://hooks.slack.com/services/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";
 
     const data = {
       text: `Name: ${name} \n${email} \n${message}`,
