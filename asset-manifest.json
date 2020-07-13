@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/restoran/static/css/main.773f6874.chunk.css",
-    "main.js": "/restoran/static/js/main.9b80599c.chunk.js",
-    "main.js.map": "/restoran/static/js/main.9b80599c.chunk.js.map",
+    "main.css": "/restoran/static/css/main.096d498d.chunk.css",
+    "main.js": "/restoran/static/js/main.64996b2f.chunk.js",
+    "main.js.map": "/restoran/static/js/main.64996b2f.chunk.js.map",
     "runtime-main.js": "/restoran/static/js/runtime-main.dda13aa5.js",
     "runtime-main.js.map": "/restoran/static/js/runtime-main.dda13aa5.js.map",
     "static/css/2.30c2d978.chunk.css": "/restoran/static/css/2.30c2d978.chunk.css",
-    "static/js/2.2a5c8e72.chunk.js": "/restoran/static/js/2.2a5c8e72.chunk.js",
-    "static/js/2.2a5c8e72.chunk.js.map": "/restoran/static/js/2.2a5c8e72.chunk.js.map",
+    "static/js/2.23c0e64c.chunk.js": "/restoran/static/js/2.23c0e64c.chunk.js",
+    "static/js/2.23c0e64c.chunk.js.map": "/restoran/static/js/2.23c0e64c.chunk.js.map",
     "index.html": "/restoran/index.html",
-    "precache-manifest.bd8bc41c9d6347ff45b366dca6e11d19.js": "/restoran/precache-manifest.bd8bc41c9d6347ff45b366dca6e11d19.js",
+    "precache-manifest.726764fbf980e813850bb63ded1f772d.js": "/restoran/precache-manifest.726764fbf980e813850bb63ded1f772d.js",
     "service-worker.js": "/restoran/service-worker.js",
     "static/css/2.30c2d978.chunk.css.map": "/restoran/static/css/2.30c2d978.chunk.css.map",
-    "static/css/main.773f6874.chunk.css.map": "/restoran/static/css/main.773f6874.chunk.css.map",
-    "static/js/2.2a5c8e72.chunk.js.LICENSE.txt": "/restoran/static/js/2.2a5c8e72.chunk.js.LICENSE.txt",
+    "static/css/main.096d498d.chunk.css.map": "/restoran/static/css/main.096d498d.chunk.css.map",
+    "static/js/2.23c0e64c.chunk.js.LICENSE.txt": "/restoran/static/js/2.23c0e64c.chunk.js.LICENSE.txt",
     "static/media/Screenshot_1.jpg": "/restoran/static/media/Screenshot_1.39ed072b.jpg",
     "static/media/Screenshot_13.jpg": "/restoran/static/media/Screenshot_13.67280919.jpg",
     "static/media/img.jpg": "/restoran/static/media/img.2f5556e9.jpg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.dda13aa5.js",
     "static/css/2.30c2d978.chunk.css",
-    "static/js/2.2a5c8e72.chunk.js",
-    "static/css/main.773f6874.chunk.css",
-    "static/js/main.9b80599c.chunk.js"
+    "static/js/2.23c0e64c.chunk.js",
+    "static/css/main.096d498d.chunk.css",
+    "static/js/main.64996b2f.chunk.js"
   ]
 }
