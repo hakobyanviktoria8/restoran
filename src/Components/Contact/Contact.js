@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from 'reactstrap';
 import "./Contact.css";
-// import {SlackMessage} from "./SlackMessage";
+import {SlackMessage} from "./SlackMessage";
 import address from "./address.png";
 import phone from "./phone.png";
 import gmail from "./gmail.png";
@@ -9,7 +9,6 @@ import facebook from "./facebook.png";
 import instagram from "./icons8-instagram-30.png";
 import pinterest from "./pinterest.png";
 import twitter from "./twitter.png";
-import ContactNar from "./ContactNar";
 
 export function Contact(props) {
     return(
@@ -21,8 +20,7 @@ export function Contact(props) {
             </Row>
             <Row className={"formContact"}>
                 <Col xs="12" sm="10" md="6" lg="6" xl="6" className={"formCol"}>
-                    {/*<SlackMessage/>*/}
-                    <ContactNar/>
+                    <SlackMessage/>
                 </Col>
                 <Col xs="12" sm="10" md="6" lg="6" xl="6" className={"p-5"}>
                     <div className="addres">

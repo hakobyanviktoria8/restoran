@@ -1,0 +1,14 @@
+.likeNum{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+}
+.likeBtn{
+    width: 51px;
+    height: 41px;
+}
+.likeImg{
+    position: relative;
+    left: -6px;
+}

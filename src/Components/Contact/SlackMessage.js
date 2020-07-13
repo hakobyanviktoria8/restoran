@@ -28,7 +28,7 @@ export function SlackMessage(props) {
     async function submitForm(e) {
         // e.preventDefault();
 
-        const url = "https://hooks.slack.com/services/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";
+        const url = "https://hooks.slack.com/services/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";
         const data = {
             text: `Name: ${name} \n Message: ${message} \n Email: ${email} `,
         };
@@ -43,20 +43,17 @@ export function SlackMessage(props) {
                     ],
                 }
             );
-            console.log("Arach", res, res.data)
-        }catch (err) {
+            console.log("Arach", res, res.data);
+            if (res.status === 200) {
+                alert("Your message was successfully sent to.");
+                setName("");
+                setEmail("");
+                setMessage("");
+            }
+        } catch (err) {
             console.error(err);
+            alert("There was an error. Please try again later.");
         }
-        
-
-        // if (res.status === 200) {
-        //     alert("Your message was successfully sent to.");
-        //     setName("");
-        //     setEmail("");
-        //     setMessage("");
-        // } else {
-        //     alert("There was an error. Please try again later.");
-        // }
     }
 
     return(
@@ -88,7 +85,7 @@ export function SlackMessage(props) {
                 onChange={(e) => { setEmail(e.target.value) }}
             />
             <Button
-                onClick={() => submitForm()}
+                onClick={(e) => submitForm(e)}
                 disabled={!email}
                 variant="contained"
                 color="primary"
