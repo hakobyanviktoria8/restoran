@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7ae9c497bc87fb2acd3eb520c247fb4d",
+    "revision": "ff28dbd4fbc8faa984b6b18f31178403",
     "url": "/restoran/index.html"
   },
   {
-    "revision": "adc870d1cae49aed2d9b",
-    "url": "/restoran/static/css/2.30c2d978.chunk.css"
+    "revision": "62f09261c30085d1cebe",
+    "url": "/restoran/static/css/2.b0704b7a.chunk.css"
   },
   {
-    "revision": "047d2c3c842b1dad47e2",
+    "revision": "a98f6350de5a2254807e",
     "url": "/restoran/static/css/main.096d498d.chunk.css"
   },
   {
-    "revision": "adc870d1cae49aed2d9b",
+    "revision": "62f09261c30085d1cebe",
     "url": "/restoran/static/js/2.23c0e64c.chunk.js"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/restoran/static/js/2.23c0e64c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "047d2c3c842b1dad47e2",
-    "url": "/restoran/static/js/main.64996b2f.chunk.js"
+    "revision": "a98f6350de5a2254807e",
+    "url": "/restoran/static/js/main.93c63141.chunk.js"
   },
   {
     "revision": "00a78d55f0fcc991519a",
